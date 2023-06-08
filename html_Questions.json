@@ -1,0 +1,136 @@
+[{
+    "title" : "What is the correct result of the following expression? typeof null;",
+    "answer_1" : "'null'",
+    "answer_2" : "'undefined'",
+    "answer_3" : "'object'",
+    "answer_4" : "'function'",
+
+    "CorrectAnswer_c":  "'object'"
+},
+{
+    "title" : "What is the correct result of the following expression? '2' + 2 - 1; ",
+    "answer_1" : "'21'",
+    "answer_2" : 3,
+    "answer_3" : "'22'",
+    "answer_4" : 1,
+
+    "CorrectAnswer_c":  "'22'"
+},
+{
+    "title" : "What is the correct result of the following expression?  'hello'.length; ",
+    "answer_1" : "'hello'",
+    "answer_2" : "'undefined'",
+    "answer_3" : 5,
+    "answer_4" : "'length'",
+
+    "CorrectAnswer_c":  "5"
+},
+{
+    "title" : "What is the correct result of the following expression?  typeof NaN; ",
+    "answer_1" : "'NaN'",
+    "answer_2" : "'undefined'",
+    "answer_3" : "'number'",
+    "answer_4" : "'object'",
+
+    "CorrectAnswer_c":  "'number'"
+},
+{
+    "title" : "What is the correct result of the following expression?  5 + '7';",
+    "answer_1" : "'12'",
+    "answer_2" : "'5 + 7'",
+    "answer_3" : "'57'",
+    "answer_4" : "'undefined'",
+
+    "CorrectAnswer_c":  "'57'"
+},
+{
+    "title" : "What is the correct result of the following expression?  parseInt('10.5');",
+    "answer_1" : "'10.5'",
+    "answer_2" : 10.5,
+    "answer_3" : 10,
+    "answer_4" : "'NaN'",
+
+    "CorrectAnswer_c":  "10"
+},
+{
+    "title" : "What is the correct result of the following expression?  [1, 2, 3] + [4, 5, 6];",
+    "answer_1" :  [1, 2, 3, 4, 5, 6],
+    "answer_2" : "'1,2,34,5,6'",
+    "answer_3" : "'1,2,34,5,6'",
+    "answer_4" : "'NaN'",
+
+    "CorrectAnswer_c":  "'1,2,34,5,6'"
+},
+{
+    "title" : "What is the correct result of the following expression?  NaN === NaN;",
+    "answer_1" :  true,
+    "answer_2" : "'undefined'",
+    "answer_3" : false,
+    "answer_4" : "'NaN'",
+
+    "CorrectAnswer_c":  "false"
+},
+{
+    "title" : "What is the correct result of the following expression?  Boolean('false');",
+    "answer_1" :  false,
+    "answer_2" : "'undefined'",
+    "answer_3" : true,
+    "answer_4" : "'false'",
+
+    "CorrectAnswer_c":  "true"
+},
+{
+    "title" : "What is the correct result of the following expression?  '5' - 3;",
+    "answer_1" :  8,
+    "answer_2" : "'2'",
+    "answer_3" : 2,
+    "answer_4" : "'NaN'",
+
+    "CorrectAnswer_c":  "2"
+},
+{
+    "title" : "What is the correct result of the following expression?  [] == false;",
+    "answer_1" :  "'undefined'",
+    "answer_2" : false,
+    "answer_3" : true,
+    "answer_4" : "'NaN'",
+
+    "CorrectAnswer_c":  "true"
+},
+{
+    "title" : "What is the correct result of the following expression?  1 + - '1' + '2';",
+    "answer_1" :  "'02'",
+    "answer_2" : 2,
+    "answer_3" : "'10'",
+    "answer_4" : "'-12'",
+
+    "CorrectAnswer_c":  "'10'"
+},
+{
+    "title" : "What is the correct result of the following expression?  2 === 2;",
+    "answer_1" :  "'undefined'",
+    "answer_2" : false,
+    "answer_3" : true,
+    "answer_4" : "'2'",
+
+    "CorrectAnswer_c":  "true"
+},
+{
+    "title" : "What is the correct result of the following expression?  'Hello' + 'World'.length;",
+    "answer_1" :  "'HelloWorld'",
+    "answer_2" : "'Helloundefined'",
+    "answer_3" :   "'Hello5'",
+    "answer_4" : "'NaN'",
+
+    "CorrectAnswer_c":   "'Hello5'"
+},
+{
+    "title" : "What is the correct result of the following expression?  undefined == null;",
+    "answer_1" :  "'undefined'",
+    "answer_2" : false,
+    "answer_3" :  true,
+    "answer_4" : null,
+
+    "CorrectAnswer_c":   "true"
+}
+]

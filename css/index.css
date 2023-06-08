@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quiz-app{
+    margin: 20px auto;
+    width: 800px;
+    background: #f8f8f8;
+    padding: 15px;
+}
+.quiz-app .quiz-info{
+    display: flex;
+    background: #fff;
+    padding: 20px;
+}
+.quiz-app .gategory{
+    flex: 1;
+}
+.quiz-app .count{
+    flex: 1;
+    text-align: right;
+}
+.quiz-app .quiz-area{
+    background: #fff;
+    padding: 20px 20px;
+    margin-top: 15px;
+}
+.quiz-app .quiz-area h2{
+    margin-bottom: 0;
+}
+.quiz-app .answers-area{
+    background: #fff;
+    padding: 20px;
+}
+.quiz-app .answers-area{
+    background: #fff;
+    padding: 0 20px 20px;
+}
+.quiz-app .answers-area .answer {
+    background: #f9f9f9;
+    padding: 20px;
+}
+.quiz-app .answers-area .answer input{
+    accent-color: #0075FF;
+    outline: none;
+    cursor: pointer;
+}
+.quiz-app .answers-area .answer:not(:last-child){
+    border-bottom: 1px solid #dfdfdf;
+}
+.quiz-app .answers-area .answer input[type='radio']:checked + label {
+    color: #0075FF;
+}
+.quiz-app .answers-area .answer label{
+    font-weight: 600;
+    font-size: 18px;
+    color: #777;
+    cursor: pointer;
+    margin-left: 5px;
+    position: relative;
+    top: -1px;
+}
+.quiz-app .sabmit-button{
+    cursor: pointer;
+    width: 100%;
+    padding: 15px 20px;
+    background: #0075FF;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    display: block;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 15px 0;
+    outline: none;
+}
+.quiz-app .bullte{
+    border-top: 1px solid #dfdfdf;
+    background: #FFF;
+    display: flex;
+    padding: 20px;
+}
+.quiz-app .bullte .spans {
+    flex: 1;
+    display: flex;
+}
+.quiz-app .bullte .spans span{
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.quiz-app .bullte .spans span.on{
+    background-color: #0075FF;
+}
+.quiz-app .result span.bad{
+    color: rgb(238, 25, 10);
+}
+.quiz-app .result span.good{
+    color: rgb(11, 190, 146);
+}
+.quiz-app .result span.perfect{
+    color: green;
+}
+.result {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.result span {
+  font-weight: bold;
+  margin: 0 5px;
+}
